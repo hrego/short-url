@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Backend Challenges | Free Code Camp</title>
+      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+      <div class="container center">
+         
+        <header>
+         <h1>API: URL Shortener Microservice</h1>
+        </header>
+
+        <main>
+          <p class="bold">User stories:</p>
+          <ul>
+            <li> I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.</li>
+            <li> If I pass an invalid URL that doesn't follow the valid.</li>
+            <li> When I visit that shortened URL, it will redirect me to my original link.</li>
+          </ul>
+          <p class="bold">Example creation usage:</p>
+          <url>https://shorturl-hr.glitch.me/new/https://www.google.com<br></url>
+          <url>https://shorturl-hr.glitch.me/new/https://www.freecodecamp.org/challenges/url-shortener-microservice<br></url>
+          <url>https://shorturl-hr.glitch.me/new/www.mongodb.com<br></url>
+          <p class="bold">Example creation output:</p>
+          <json>{"original_url":"https://www.google.com","short_url":"https://shorturl-hr.glitch.me/4bvowV7R"}</json><br>
+          <json>{"original_url":"https://www.freecodecamp.org/challenges/url-shortener-microservice","short_url":"https://shorturl-hr.glitch.me/7IfLww9S"}</json><br>
+          <json>{"error":"Wrong url format, pass a valid protocol and site."}</json>
+          <p class="bold">Usage:</p>
+          <url>https://shorturl-hr.glitch.me/4bvowV7R</url>
+          <p class="bold">Will redirect to:</p>
+          <url>https://www.google.com</url><br>
+          <p class="bold">Usage:</p>
+          <url>https://shorturl-hr.glitch.me/7IfLww9S</url>
+          <p class="bold">Will redirect to:</p>
+          <url>https://www.freecodecamp.org/challenges/url-shortener-microservice</url>
+
+        </main>
+
+        <footer>
+          <a href="https://github.com/hrego/">
+            Coded by hr
+          </a>
+        </footer>
+
+      </div>
+   </body>
+
+</html>
