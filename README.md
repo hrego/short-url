@@ -26,9 +26,9 @@ https://shorturl-hr.glitch.me/new/www.mongodb.com
 Example creation output:
 --------------------------
 
-{"original_url":"https://www.google.com","short_url":"https://shorturl-hr.glitch.me/4bvowV7R"}
+{"original_url":"https://www.google.com", "short_url":"https://shorturl-hr.glitch.me/4bvowV7R"}
 
-{"original_url":"https://www.freecodecamp.org/challenges/url-shortener-microservice","short_url":"https://shorturl-hr.glitch.me/7IfLww9S"}
+{"original_url":"https://www.freecodecamp.org/challenges/url-shortener-microservice", "short_url":"https://shorturl-hr.glitch.me/7IfLww9S"}
 
 {"error":"Wrong url format, pass a valid protocol and site."}
 
